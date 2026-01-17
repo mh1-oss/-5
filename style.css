@@ -52,9 +52,12 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color: #333;
+    transition: all 0.3s ease;
 }
 nav ul li a:hover{
     color: #0000FF;
+    transform: translateY(-2px);
+    cursor: pointer;
 }
 .logo a:hover{
     color: #0000FF;
@@ -142,6 +145,7 @@ nav ul li a:hover{
 }
 .total-todos{
     padding-top: 31px;
+    margin-bottom: 150px;
 }
 .total-todos p{
     font-size: 18px;
